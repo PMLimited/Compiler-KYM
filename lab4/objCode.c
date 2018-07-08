@@ -517,3 +517,8 @@ void deletestack()
 	sshead = sshead->next;
 	free(temp1);
 }
+
+void fwriteAllObjCode(char* filename){
+	writeAsmHead(filename);
+	inter2asm(filename);
+}

@@ -58,6 +58,7 @@ void bgt(int op1reg, int op2reg, int labelid, FILE *fp);
 void blt(int op1reg, int op2reg, int labelid, FILE *fp);
 void bge(int op1reg, int op2reg, int labelid, FILE *fp);
 void ble(int op1reg, int op2reg, int labelid, FILE *fp);
+void fwriteAllObjCode(char* filename); 
 
 
 #endif
